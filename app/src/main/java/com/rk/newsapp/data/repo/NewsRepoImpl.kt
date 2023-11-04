@@ -1,6 +1,6 @@
 package com.rk.newsapp.data.repo
 
-import com.rk.newsapp.data.convertor.toDomain
+import com.rk.newsapp.convertor.toDomain
 import com.rk.newsapp.data.network.ApiService
 import com.rk.newsapp.domain.model.Article
 import com.rk.newsapp.domain.repo.NewsRepo

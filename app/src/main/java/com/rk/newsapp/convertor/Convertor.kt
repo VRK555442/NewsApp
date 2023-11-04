@@ -1,4 +1,4 @@
-package com.rk.newsapp.data.convertor
+package com.rk.newsapp.convertor
 
 import com.rk.newsapp.data.model.ArticleDTO
 import com.rk.newsapp.domain.model.Article

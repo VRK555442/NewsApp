@@ -8,7 +8,6 @@ import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 class NewsUseCase @Inject constructor(private val newsRepo : NewsRepo) {
-
     operator fun invoke() : Flow<Resource<List<Article>>> = flow {
         emit(Resource.Loading("Loading..."))
         try {
