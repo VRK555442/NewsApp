@@ -1,4 +1,4 @@
-package com.rk.newsapp
+package com.rk.newsapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
